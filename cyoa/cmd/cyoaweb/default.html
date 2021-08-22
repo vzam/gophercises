@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+</header>
+
+<body>
+    <h1>{{.Title}}</h1>
+    {{range .StoryParagraphs}}
+    <section>
+        {{.}}
+    </section>
+    {{end}}
+    {{range .Options}}
+    <ul>
+        <li><a href="/stories/{{.Chapter}}">{{.Text}}</a></li>
+    </ul>
+    {{end}}
+</body>
+
+</html>
