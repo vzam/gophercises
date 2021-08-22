@@ -1,4 +1,4 @@
-module les_goph_04
+module urlshortener
 
 go 1.17
 

@@ -4,10 +4,13 @@
 			"path": "."
 		},
 		{
-			"path": "les_goph_01"
+			"path": "cyoa"
 		},
 		{
-			"path": "les_goph_04"
+			"path": "quiz"
+		},
+		{
+			"path": "urlshortener"
 		}
 	],
 	"settings": {}

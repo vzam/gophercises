@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"les_goph_04/urlshort"
 	"net/http"
+	"urlshortener/urlshort"
 )
 
 func main() {
